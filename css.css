@@ -1,0 +1,113 @@
+.todo {
+display: grid;
+grid-template-columns: 1fr 0.3fr repeat(4, 1fr) 0.3fr 1fr;
+grid-template-rows: 0.3fr 0.5fr repeat(3, 1fr);
+grid-column-gap: 5px;
+grid-row-gap: 5px;
+text-align: center;
+
+background-image: url('sky.jpg');
+ background-repeat: no-repeat;
+  background-attachment: fixed;
+ background-size: 100% 100%;
+
+	align-items: center;
+}
+
+
+.titulo { 
+	grid-area: 1 / 3 / 2 / 7; 
+	background-color: rgba(76, 175, 80, 0.3);
+	border-radius: 25px;
+	}
+.estudios { 
+	grid-area: 2 / 3 / 3 / 6; 
+	background-color: rgba(154, 64, 228, 0.3);
+	border-radius: 25px;
+	}
+.ocio { 
+	grid-area: 2 / 6 / 3 / 7; 
+	background-color: rgba(164, 66, 25, 0.3);
+	border-radius: 25px;
+	}
+.leng { 
+	grid-area: 3 / 3 / 4 / 4; 
+	background-color: rgba(77, 231, 189, 0.3);
+	border-radius: 25px;
+	
+	}
+.mat { 
+	grid-area: 3 / 4 / 4 / 5; 
+	background-color: rgba(13, 197, 147, 0.3);
+	border-radius: 25px;
+	}
+.fyq { 
+	grid-area: 3 / 5 / 4 / 6;
+	background-color: rgba(77, 231, 189, 0.3);
+	border-radius: 25px;	
+	}
+.educa { 
+	grid-area: 4 / 3 / 5 / 4;
+	background-color: rgba(13, 197, 147, 0.3);
+	border-radius: 25px;
+	}
+.tecind{ 
+	grid-area: 4 / 4 / 5 / 5; 
+	border-radius: 25px;
+	background-color: rgba(77, 231, 189, 0.3);
+	}
+.tic { 
+	grid-area: 4 / 5 / 5 / 6; 
+	background-color: rgba(13, 197, 147, 0.3);
+	border-radius: 25px;
+	}
+.filo {
+	grid-area: 5 / 3 / 6 / 4; 
+	background-color: rgba(77, 231, 189, 0.3);
+	border-radius: 25px;
+	}
+.dt { 
+	grid-area: 5 / 4 / 6 / 5;
+	background-color: rgba(13, 197, 147, 0.3);
+	border-radius: 25px;
+	}
+.ingl { 
+	grid-area: 5 / 5 / 6 / 6; 
+	background-color: rgba(77, 231, 189, 0.3);
+	border-radius: 25px;
+	}
+.dise { 
+	grid-area: 3 / 6 / 4 / 7; 
+	border-radius: 25px;
+	background-color: rgba(237, 186, 95, 0.3);
+	}
+.revista { 
+	grid-area: 4 / 6 / 5 / 7; 
+	background-color: rgba(233, 213, 52, 0.3);
+	border-radius: 25px;
+	}
+.videos {
+	grid-area: 5 / 6 / 6 / 7; 
+	border-radius: 25px;
+	background-color: rgba(237, 186, 95, 0.3);
+	}
+
+.msg { 
+	grid-area: 4 / 1 / 5 / 2; 
+	background-color: rgba(138, 218, 15, 0.3);
+	border-radius: 25px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+  
+	}
+.bienvenido { 
+	grid-area: 2 / 8 / 4 / 9; 
+	background-color: rgba(131, 149, 180, 0.3);
+	border-radius: 25px;
+	}
+.vistas { 
+	grid-area: 4 / 8 / 6 / 9; 
+	background-color: rgba(154, 64, 228, 0.3);
+	border-radius: 25px;
+	}
